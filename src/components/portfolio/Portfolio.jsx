@@ -26,7 +26,7 @@ const data = [
   id: 3,
   image: IMG3,
   title: "To do list",
-  github: 'https://github.com/',  //replace with your github project link
+  github: 'https://github.com/kkill323/todo-list',  //replace with your github project link
   demo: 'https://todolist-v2-kevin.herokuapp.com/'
 }
 ]

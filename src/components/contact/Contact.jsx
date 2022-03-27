@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
+import {AiFillInstagram} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_xqstim1', 'template_ky1ucaz', form.current, 'user_641J0AWGxx4qcKi835yDq')
+    emailjs.sendForm('service_xqstim1', 'template_a7qhov7', form.current, '7iEgyuUreuLEEnlIV')
 
     e.target.reset()
   };
@@ -31,10 +31,10 @@ const Contact = () => {
             <a href="mailto:kevinlamprouch@gmail.com" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
+            <AiFillInstagram className='contact__option-icon'/>
+            <h4>instagram</h4>
             <h5>Kevin-Selby</h5>
-            <a href="https://m.me/ernest.achiever" target="_blank">Send a message</a>
+            <a href="https://www.instagram.com/kkill32/" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
@@ -44,6 +44,7 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
+        {/* <form action=""> */}
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
