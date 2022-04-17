@@ -28,19 +28,19 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>kevinlamprouch@gmail.com</h5>
-            <a href="mailto:kevinlamprouch@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:kevinlamprouch@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <AiFillInstagram className='contact__option-icon'/>
             <h4>instagram</h4>
             <h5>Kevin-Selby</h5>
-            <a href="https://www.instagram.com/kkill32/" target="_blank">Send a message</a>
+            <a href="https://www.instagram.com/kkill32/" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+16474515823</h5>
-            <a href="https://api.whatsapp.com/send?phone=+16474515823" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+16474515823" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}

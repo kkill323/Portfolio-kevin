@@ -12,7 +12,7 @@ const Services = () => {
     <div className="container services__container">
 <article className="service">
 <div className="service__header">
-<h3>SOFTWARE ENGINEERING INTERN
+<h3>SOFTWARE ENGINEERING final project
 Dalhousie youth support services September
 2019–May 2020</h3>
 </div>

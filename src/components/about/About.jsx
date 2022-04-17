@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import './about.css'
 import ME from '../../Assets/me-about.jpg'
@@ -15,7 +16,7 @@ const About = () => {
     <div className="container about__container">
       <div className="about__me">
         <div className="about__me-image">
-          <img src={ME} alt="About Image" />
+          <img src={ME} alt="Image" />
         </div>
       </div>
 
@@ -24,7 +25,7 @@ const About = () => {
 <article className='about__card'>
      <FiAward className='about__icon'/>
      <h5>Experience</h5>
-      <small>1 year working experience</small>
+      <small>final year project working with a customer for a year</small>
 
 </article>
 
@@ -38,7 +39,7 @@ const About = () => {
 <article className='about__card'>
 <AiFillFolderOpen className='aboutCard__icon'/>
 <h5>Projects</h5>
-<small>2 completed projects</small>
+<small>2+ completed projects</small>
 
 </article>
 
@@ -53,7 +54,7 @@ const About = () => {
 
 </div>
 <p>
-  Have little experience in web development but im eager to learn and always trying new things.
+I am a software developer with a minor in business who is open to all kinds of opportunities especially front end, web dev and quality assurance jobs. My hobbies include video games, movies, TV shows, model trains, and of course writing software. I am versitale in all 3 operating system but my current os of choice is mac os.
 </p>
 <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 </div>
