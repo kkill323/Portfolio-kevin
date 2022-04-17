@@ -1,6 +1,5 @@
 import React from 'react'
 import './header.css'
-import {Helmet} from 'react-helmet';
 import CTA from './CTA'
 import ME from '../../Assets/me.png'
 import HeaderSocial from './HeaderSocials'
